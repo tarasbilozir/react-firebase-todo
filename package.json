@@ -4,6 +4,7 @@
   "description": "Simple todo app with firebase and react.",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server",
     "dev": "webpack-dev-server",
     "pretest": "eslint . --ext .jsx,.js --quiet",
     "test": "eslint . --ext .jsx,.js; true"
